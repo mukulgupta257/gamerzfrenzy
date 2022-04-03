@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 #contact{
@@ -83,14 +84,14 @@
 
 nav{
     background-color: #0B286B;
-    height: 8rem;
+    height: 6rem;
     padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 nav > div >img{
-    width: 8rem;
+    width: 6rem;
     height: 90%;
 }
 nav > #logo >span{
@@ -104,11 +105,18 @@ nav > #logo >span{
     margin-right: 1rem;
     font-size: 1.3rem;
     color: #fff;
+    border-right: 1px solid #fff;
+    padding-right: 1rem;
 }
 #navigation > a:hover{
     text-decoration: underline;
 }
+#home-page{
+    font-weight: bold;
+    text-decoration: underline;
+}
 .label{
+    margin: 1rem 0rem;
     background-color: #000;
     max-width: 100vw;
     height: 6rem;
@@ -117,10 +125,18 @@ nav > #logo >span{
     align-items: center;
     font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
+    color: #c0c0c0;
+}
+#answer{
+    position: relative;
+    bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Rubik Glitch', cursive;
 }
 #variety{
     background-color: #000;
     max-width: 100vw;
+    
 }
 #variety > .games{
     width: 100%;
@@ -135,4 +151,90 @@ nav > #logo >span{
 .games > video > source{
     width: 100%;
     height: 100%;
+}
+#rules{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+#rules > div{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.card-top{
+    width: 20rem;
+    height: 15rem;
+    box-shadow: 0px 0px 10px #fff;
+}
+.card-top > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-middle{
+    width: 12rem;
+    height: 18rem;
+    box-shadow: 0px 0px 10px #fff;
+}
+.card-middle > img{
+    width: 100%;
+    height: 100%;
+}
+.card-bottom{
+    width: 28rem;
+    height: 15rem;
+    box-shadow: 0px 0px 10px #fff;
+}
+.card-bottom > img{
+    width: 100%;
+    height: 100%;
+}
+#whyus{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 300px;
+    justify-content: space-around;
+}
+#whyus > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+#whyus > ul > li::before{
+    content: '💰';
+}
+#bonus{
+    margin-top: 5rem;
+}
+#bonus > div > span{
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    color: #c0c0c0;
+    margin: 4rem 0rem;
+}
+#bonus > div > ul{
+    margin-top: 2rem;
+}
+#bonus > div > ul > li{
+    font-size:1.8rem ;
+    margin-bottom: 1rem;
+    font-family: 'Satisfy', cursive;
+}
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    color: #fff;
+    align-items: center;
 }

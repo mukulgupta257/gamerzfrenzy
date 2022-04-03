@@ -15,8 +15,9 @@
 <body>
     <!-- contact for account -->
     <img src="./images/logo/icons8-facebook-64.svg" id="contact" />
+    <!--  -->
     <!-- modal for facebook page -->
-    <div id="modal">
+    <!-- <div id="modal">
         <div id="modal_content">
             <div id="cross">
                 <span class="material-icons" id="cross-btn">
@@ -29,41 +30,93 @@
                 </button></a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- nav bar for gamerz frenzy -->
     <nav>
         <div id="logo"><img src="./images/logo/logo_with_removebg.png" /> <span>Gamerz Frenzy</span></div>
         <div id="navigation">
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
-            <a href="#">Get Account</a>
+            <a href="#rules" id="home-page">Games</a>
+            <a href="#whyus">Rules</a>
+            <a href="#bonus">Bonus</a>
+            <a href="https://www.facebook.com/frenzygamerz/">Get Account</a>
         </div>
     </nav>
     <div id="variety">
         <div class="games">
             <video loop autoplay muted >
-                <source src="./videos/orionStar.mp4" type="video/mp4">
-            </video>
-            <video autoplay loop muted>
-                <source src="./videos/juwaa.mp4" type="video/mp4">
-            </video>    
+                <source src="./videos/warmhole_1.mp4" type="video/mp4">
+            </video>   
         </div>
         <div class="label">
-            <span>Chose From variety of games</span>
+            <span>Games We Offer ,&ensp;</span>
+            <span>Let's Earn and Have Fun!!!</span>
         </div>
+        <div id="rules">
+            <div>
+                <div class="card-top">
+                    <img src="./images/games/fire.jpg" />
+                </div>
+                <div class="card-top">
+                    <img src="./images/games/ultra.jpg" />
+                </div>
+             </div>
+            <div>
+                <div class="card-middle">
+                    <img src="./images/games/orion.jpg" />
+                </div>
+                <div class="card-middle">
+                    <img src="./images/games/panda.png" />
+                </div>
+                <div class="card-middle">
+                    <img src="./images/games/xgame.png" />
+                </div>
+                <div class="card-middle">
+                    <img src="./images/games/power.png" />
+                </div>
+             </div>
+             <div>
+                <div class="card-bottom">
+                    <img src="./images/games/juwa.jpg" />
+                </div>
+                <div class="card-bottom">
+                    <img src="./images/games/vegas.png" />
+                </div>
+             </div>
+            <div>
+        </div>
+        
+        <div class="label">
+            <span>Why Gamerz Frenzy?</span>
+        </div>  
+        <span id="answer">-Since, we never ask for upfront PAYMENT we are 100% legit</span>
+        <div id="bonus">
+            <div>
+                <span>Bonus</span>
+                <ul>
+                    <li>Upto 80% Bonus</li>
+                    <li>Instant System Delivery & Loading</li>
+                    <li>3times Cashout per Day</li>
+                    <li>Upto 50% Referal Bonus</li>
+                    <li>Monthly Lucky Draw</li>
+                </ul>
+            </div>
+            <div>
+                <span>Services</span>
+                <ul>
+                    <li>Upto $20 Freeplay</li>
+                    <li>24*7 Support </li>
+                    <li>More than 8 Systems & games</li>
+                    <li>Fast and Secure</li>
+                    <li>Trusted by 1000+ Users</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
-   
+   <footer>
+       &copy;2021 All Rights Reserved
+   </footer>
     
-<script>
-    window.addEventListener('load',_=>{
-        setTimeout(_=>{
-            document.getElementById('modal').style.display='flex';
-        },3000)
-    })  
-    document.getElementById('cross-btn').addEventListener('click',_=>{
-        document.getElementById('modal').style.display='none'
-    })
-</script>
+
 </body>
 </html>
