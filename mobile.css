@@ -29,6 +29,7 @@
         font-size: 1.8rem;
         justify-content: center;
         padding: 0% 1%;
+        height: 50px;
     }
     #rules > div{
         max-width: 100vw;
@@ -41,5 +42,24 @@
         margin: 0%;
         border-radius: none;
         box-shadow: none;
+    }
+    #answer{
+        width: 100vw;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    #bonus{
+        width: 100vw;
+        margin-top: 0rem;
+        justify-content: center;
+    }
+    #bonus > div{
+        width: 40%;
+    }
+    .rules{
+        max-width: 98vw;
+    }
+    .rules > ol{
+        width: 90%;
     }
   }
