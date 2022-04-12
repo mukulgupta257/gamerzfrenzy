@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
 #contact{
@@ -123,15 +127,15 @@ nav > #logo >span{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    font-family: 'Anek Odia', sans-serif;
     color: #c0c0c0;
 }
 #answer{
     position: relative;
     bottom: 2rem;
-    font-size: 2rem;
-    font-family: 'Rubik Glitch', cursive;
+    font-size: 2.4rem;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #variety{
     background-color: #000;
@@ -217,7 +221,7 @@ nav > #logo >span{
 }
 #bonus > div > span{
     font-size: 3rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Slab', serif;
     text-decoration: underline;
     color: #c0c0c0;
     margin: 4rem 0rem;
@@ -228,7 +232,7 @@ nav > #logo >span{
 #bonus > div > ul > li{
     font-size:1.8rem ;
     margin-bottom: 1rem;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 footer{
     background-color: #000;
@@ -237,4 +241,24 @@ footer{
     height: 3rem;
     color: #fff;
     align-items: center;
+}
+.rules{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.rules > ol > li{
+    margin-bottom: 1rem;
+}
+.gamerrules > li{
+    list-style: none;
+}
+
+.gamerrules > li::before{
+content: "🎮";
+font-size: 1.5rem;
 }
