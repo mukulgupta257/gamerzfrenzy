@@ -1,0 +1,45 @@
+@media only screen and (max-width: 450px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        overflow-y: scroll;
+    }
+    #logo{
+        display: flex;
+    }
+    #logo > img{
+        width: 5rem;
+        height: 5rem;
+    }
+    nav > #logo > span{
+        height: 100%;
+        font-size: 2rem; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #navigation{
+        display: flex;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        font-size: 1.8rem;
+        justify-content: center;
+        padding: 0% 1%;
+    }
+    #rules > div{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card-top{
+        width: 50%;
+        margin: 0%;
+        border-radius: none;
+        box-shadow: none;
+    }
+  }
